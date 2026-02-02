@@ -42,8 +42,8 @@ while True:
                 pub_presenca({
                     "nome": best["nome"],
                     "matricula": best["matricula"],
-                    "sala": "LAB-101",
-                    "materia": "Visao Computacional"
+                    "sala": "I-22",
+                    "materia": "C210 - Inteligência Computacional"
                 })
         else:
             label = "Desconhecido"

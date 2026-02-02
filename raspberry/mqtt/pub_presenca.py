@@ -1,9 +1,9 @@
 from paho.mqtt import client as mqtt
 import json
 
-def publish_presence(data):
+def pub_presenca(data):
     client = mqtt.Client()
-    client.connect("IP_DO_SERVIDOR", 1883)
+    client.connect("192.168.0.106", 1883)
 
     client.publish(
         "facevision/presenca",
