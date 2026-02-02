@@ -39,7 +39,7 @@ while True:
         if best_sim >= CONFIDENCE_THRESHOLD:
             label = f"{best['nome']} ({best_sim:.2f})"
             if best["matricula"]:
-                publish_presence({
+                pub_presenca({
                     "nome": best["nome"],
                     "matricula": best["matricula"],
                     "sala": "LAB-101",
